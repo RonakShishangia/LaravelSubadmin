@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('tables');
+    return view('admin.pages.index');
 });
